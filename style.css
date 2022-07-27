@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navBar {
+    background-color: #262626;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    top: 0;
+}
+
+.name {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.occupation {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.mainContent {
+    max-width: 310px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+.socMed1 img {
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border: 2.5px solid #1877f2;
+}
+
+.socMed2 img {
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border: 2.5px solid transparent;
+    background: linear-gradient(to bottom right, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+}
+.socMed3 img {
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border: 2.5px solid #00BFFF;
+}
+
+.socMed4 img {
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border: 2.5px solid red;
+}
+.socMed5 img {
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border: 2.5px solid #262626;
+}
+.socMed6 img {
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    border: 2.5px solid transparent;
+    background: linear-gradient(to right, #69C9D0, #010101, #EE1D52);
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mainContent {
+        max-width: 630px;
+        margin: auto;
+        margin-top: 150px;
+        color: whitesmoke;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .mainContent {
+        max-width: 850px;
+        margin: auto;
+        margin-top: 110px;
+        margin-bottom: 150px;
+        color: whitesmoke;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    .socMed1 img {
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed1 img:hover {
+        border: 5px solid #1877f2;
+    }
+    .socMed2 img {
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed2 img:hover {
+        border: 5px solid transparent;
+        background: linear-gradient(to bottom right, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    }
+    .socMed3 img {
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed3 img:hover {
+        border: 5px solid#00BFFF;
+    }
+    .socMed4 img {
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed4 img:hover {
+        border: 5px solid red;
+    }
+    .socMed5 img {
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed5 img:hover {
+        border: 5px solid #262626;
+    }
+    .socMed6 img {
+        width: 400px;
+        height: 200px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed6 img:hover {
+        border: 2.5px solid transparent;
+        background: linear-gradient(to right, #69C9D0, #010101, #EE1D52);
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .mainContent {
+        max-width: 1050px;
+        margin: auto;
+        margin-top: 110px;
+        margin-bottom: 150px;
+        color: whitesmoke;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+    .socMed1 img {
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed1 img:hover {
+        border: 5px solid #1877f2;
+    }
+    .socMed2 img {
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed2 img:hover {
+        border: 5px solid transparent;
+        background: linear-gradient(to bottom right, #F58529, #FEDA77, #DD2A7B, #8134AF, #515BD4);
+    }
+    .socMed3 img {
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed3 img:hover {
+        border: 5px solid #00BFFF;
+    }
+    .socMed4 img {
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed4 img:hover {
+        border: 5px solid red;
+    }
+    .socMed5 img {
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed5 img:hover {
+        border: 5px solid #262626;
+    }
+    .socMed6 img {
+        width: 500px;
+        height: 250px;
+        cursor: pointer;
+        border: none;
+    }
+    .socMed6 img:hover {
+        border: 5px solid transparent;
+        background: linear-gradient(to right, #69C9D0, #010101, #EE1D52);
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .mainContent {
+        max-width: 1600px;
+        margin: auto;
+        margin-top: 150px;
+        color: whitesmoke;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+    }
+}
+
+
+
